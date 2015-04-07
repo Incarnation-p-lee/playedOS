@@ -1,4 +1,5 @@
-%include "../inc/boot.inc"
+%include "../inc/descriptor.asm"
+%include "../inc/define.asm"
 
 org     7c00h
         jmp  begin
