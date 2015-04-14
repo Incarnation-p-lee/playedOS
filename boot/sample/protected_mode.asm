@@ -99,6 +99,6 @@ CODE32:
 SEG_CODE32_LEN   equ  $ - CODE32
 times    382 - ($ - $$) db 0
 dw       0xaa55
-# command reference:
-#     nasm protected_mode.asm -o pm.bin
-#     dd if=pm.bin of=pm.img bs=512 count=1
+; command reference:
+;     nasm protected_mode.asm -o pm.bin
+;     dd if=pm.bin of=pm.img bs=512 count=1
