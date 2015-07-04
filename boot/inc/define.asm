@@ -7,7 +7,7 @@ DA_ELEMENT_4K EQU 8000h
 ;
 
 ; Paging Entry Attribute
-PG_P    EQU    1b
-PG_RW_W EQU   10b
-PG_US_U EQU  100b
+PG_P    EQU    1
+PG_RW_W EQU    2
+PG_US_U EQU    4
 
